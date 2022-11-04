@@ -24,6 +24,8 @@ gem "require_all"
 # https://github.com/faker-ruby/faker
 gem "faker", "~> 2.18"
 
+gem 'psych', '3.3.2'
+
 # These gems will only be used when we are running the application locally
 group :development do
   gem "pry"
